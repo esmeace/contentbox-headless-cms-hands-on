@@ -18,7 +18,7 @@ This course will focus on building a feed of posts.  We will manage the content 
 
 - Introductions
 - Software Pre-Requisites
-- Course Expectations
+- Session Expectations
 
 ### 2. Learn Headless CMS
 
@@ -32,7 +32,9 @@ What we will do:
 
 What we will do:
 
+- Install ContentBox
 - Manage Users
+- Create categories
 - Create blog posts
 - Create pages
 
