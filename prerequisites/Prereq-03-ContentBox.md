@@ -1,6 +1,6 @@
 # Installing ContentBox
 
-If you successfully installed Docker, copy our `docker-compose.yml` file into the `Headless ContentBox`.  CD into into the directory `Headless ContentBox`.
+If you successfully installed Docker, copy our `docker-compose.yml` file into the `Headless ContentBox` dir.  CD into into the directory `Headless ContentBox`.
 
 ```
 cd Headless ContentBox
@@ -28,13 +28,14 @@ You will be prompted with the following:
 13. Enter the ContentBox version to use or leave empty to use the latest stable version (be = snapshot)? ( leave empty )
 14. Do you wish to continue? [y/n] y
 
+Note:  There will be errors in the console but that is because the database has not been created.
 ## CORS
 Add the CORS module, which detects CORS requests, validates them against the configured origins, and handles preflight requests.
 
 ```
 install cors
 ```
-Exit CommandBox
+## Exit CommandBox
 
 ```
 exit
@@ -53,7 +54,7 @@ Using your MySQL DB Client start a new connection.
 3. username: sa ( root if sa fails )
 4. password: cbheadless
 
-Once it the connections is stablished, create a new database.
+Once the connections is stablished, create a new database.
 1. name: cbheadless
 2. character set: utf8mb4
 

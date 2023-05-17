@@ -31,8 +31,6 @@ Although the community is very helpful, if all else fails, CommadnBox King Brad 
 
 Reach out to us in the Slack Channel for the workshop too.
 
-## Creating our ColdBox REST API App
-
 ### Start CommandBox
 
 Start CommandBox and then CD into the directory
@@ -44,7 +42,7 @@ cd \your\workshop\directory
 
 ### Install [commandbox-bullet-train](https://forgebox.io/view/commandbox-bullet-train)
 
-You should install this no matter what after getting CommandBox.
+You should install this no matter what, after getting CommandBox.
 
 ```sh
 install commandbox-bullet-train
@@ -57,7 +55,7 @@ install contentbox-cli
 
 ### Reload CommandBox
 
-When loading modules you will need to reload the CLI to load the new modules. Running `r` is an alias for `reload` which will reload the cli, this might take a minute or two.
+When loading modules you will need to reload the CLI to load the new modules. Running `r` is an alias for `reload`, which will reload the cli. This might take a minute or two.
 
 
 ## Once installed, you can move onto the next step
