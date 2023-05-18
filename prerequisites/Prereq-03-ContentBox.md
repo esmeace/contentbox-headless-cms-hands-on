@@ -50,8 +50,8 @@ docker-compose up -d --build
 Using your MySQL DB Client start a new connection.
 
 1. host: 127.0.0.1
-2. port: 3357
-3. username: sa ( root if sa fails )
+2. port: 3358
+3. username: root
 4. password: cbheadless
 
 Once the connections is stablished, create a new database.
